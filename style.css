@@ -29,7 +29,7 @@ body {
     font-weight: 900;
 }
 
-/* 
+
 header{ 
     display: flex;
     background-image: url(./img/hero-bg.svg);
@@ -145,7 +145,7 @@ header{
 header{
     display: flex;
     justify-content: center;
-   /*  justify-content: space-between; */
+    color: #fff;
     background-image: url(./img/hero-bg.svg);
     gap: 1rem;
     background-color: blue;
@@ -160,15 +160,19 @@ header{
  }
  .menu{
     list-style: none;
+   
+    
 }
-button{
-    display: flex;
-}
+
 
 .menu li{
    display: inline-block;
    justify-items:flex-end;
+   align-self: start;
+   font-family: 'Times New Roman', Times, serif;
+    gap: 2rem;
 }
+
 .btn1{
         font-family: 'Courier New', Courier, monospace;
          border: 5px solid white;
